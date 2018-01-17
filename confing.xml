@@ -47,6 +47,10 @@
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
+    <!-- whis h-->
+    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+
+    
 </widget>
 
 
