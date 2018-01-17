@@ -37,9 +37,16 @@
 <feature name="NetworkStatus">
     <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
 </feature>
+    
+    <plugin name="cordova-plugin-network-information" />
 
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
+<platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
 </widget>
 
 
