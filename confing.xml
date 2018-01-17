@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 
 <widget id="org.henry.register" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Unik APP</name>
+    <name>Unik</name>
     <description>second app</description>
 
     <author email="jacob2016henry@gmail.com" href="http://www.sample.web">Jacob Henry</author>
@@ -33,24 +33,6 @@
 
     <plugin name="cordova-plugin-whitelist" />
 
- <!-- CHECK NETWORK CONNECTION -->
-<feature name="NetworkStatus">
-    <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
-</feature>
-    
-    <plugin name="cordova-plugin-network-information" />
-
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-<platform name="android">
-        <allow-intent href="market:*" />
-    </platform>
-    <platform name="android">
-        <allow-intent href="market:*" />
-    </platform>
-    <!-- whis h-->
-    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
-
-    
 </widget>
 
 
